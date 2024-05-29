@@ -37,7 +37,7 @@ La búsqueda binaria es especialmente eficiente cuando se trabaja con listas gra
 
 ### Ejemplo sencillo: 
 
-```
+```python
 def busqueda_binaria(lista, objetivo):
     bajo = 0
     alto = len(lista) - 1
