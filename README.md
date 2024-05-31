@@ -12,18 +12,11 @@ La búsqueda lineal es útil en situaciones donde no tenemos información previa
 ### Ejemplo sencillo:
 
 ```python
-def busqueda_lineal(lista, objetivo):
-    for indice, valor in enumerate(lista):
-        if valor == objetivo:
-            return indice
-    return -1
+data = [1,3,4,6,7,8,10,13,14,18,19,21,24,37,40,45,71]
 
-lista = [10, 23, 45, 70, 11, 15]
-objetivo = 70
-
-resultado = busqueda_lineal(lista, objetivo)
-print("Resultado de la búsqueda lineal:", resultado)
-
+for i in range(len(data)): 
+    if data[i] == 7:
+        print(i)
 ```
 
 
